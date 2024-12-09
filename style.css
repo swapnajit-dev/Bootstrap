@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secoundary-color:#29a9fc;
+    --bs-supporting-color:#c850c0;
+}
+h1,h2,h3,h4,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button,a{
+    font-size: 1.15rem ;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+.common-heading{
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem ;
+}
+.common-title{
+    margin-bottom: 3.2rem;
+}
+/* navbar */
+.nav-link{
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: var(--secoundary-color);
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+.bg-theme{
+    color: var(--bs-supporting-color);
+    background-image: none;
+}
+/* hero-section */
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.image-section{
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+    border-radius: 2rem;
+
+}
+.text-light-grey{
+    color: var(--bs-primary-color);
+}
+
+.custom-shape-divider-bottom-1723255693 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1723255693 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 175px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1723255693 .shape-fill {
+    fill: #FFFFFF;
+}
+/* service-section */
+.service-section {
+    /* padding: 6rem 0 3rem 0; */
+}
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:var(--secoundary-color);
+    color: var(--bs-main-color);
+}
+.card-box:hover{
+box-shadow: rgba(149,157 ,165, 0.2);
+}
